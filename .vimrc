@@ -22,5 +22,8 @@ set cursorline
 " show the matching part of the pair for [] {} and ()
 set showmatch
 
+" force dark background to match terminal colors in tmux
+set background=dark
+
 " enable all Python syntax highlighting features
 let python_highlight_all = 1
