@@ -26,3 +26,23 @@ source ~/.zshrc
 ```
 
 If Python is already installed via conda, run the command `~/{insert-conda-installation-path}/bin/conda init zsh` to update `.zshrc`
+
+## 2. Vim configuration
+
+Run the following commands to populate Vim config.
+
+```zsh
+cd ~
+git clone https://github.com/GeorgeWilliamStrong/dotfiles.git
+ln -s ./dotfiles/.vimrc .vimrc
+```
+
+## 3. TMUX configuration
+
+Basic configuration to preserve terminal colors in Vim.
+
+```zsh
+cd ~
+git clone https://github.com/GeorgeWilliamStrong/dotfiles.git
+ln -s ./dotfiles/.tmux.conf .tmux.conf
+```
