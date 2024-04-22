@@ -43,6 +43,5 @@ Basic configuration to preserve terminal colors in Vim.
 
 ```zsh
 cd ~
-git clone https://github.com/GeorgeWilliamStrong/dotfiles.git
 ln -s ./dotfiles/.tmux.conf .tmux.conf
 ```
